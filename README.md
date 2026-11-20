@@ -92,3 +92,6 @@ curl -X POST https://REEMPLAZAR.onrender.com/libros \
    - Start Command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
    - Variables de entorno: `DATABASE_URL` (la del paso 2), `SECRET_KEY` (cadena aleatoria larga), `PYTHON_VERSION=3.12.8`
 4. Cargar datos de prueba en producción: ejecutar `python seed.py` desde tu equipo con `DATABASE_URL` apuntando a la *External Database URL*, o desde la pestaña Shell del servicio.
+## URL de producción
+- API: https://libreria-api-1wmf.onrender.com
+- Documentación: https://libreria-api-1wmf.onrender.com/docs
